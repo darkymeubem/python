@@ -1,0 +1,18 @@
+clasf = ('Vasco','Internacional','Atlético-MG','Bahia','Santos','Atlético-PR','Grêmio','Botafogo','Palmeiras','Bragantino-SP','Corinthias','Atlético-GO','São Paulo','Fluminense','Fortaleza','Sport Recife','Flamengo','Goiás','Ceará','Coritiba')
+print('=-'*20)
+print('Classificação do Brasileirão')
+print('=-'*20)
+print('='*29)
+print('Os 5 primeiros colocados são:')
+for c in range (0,5):
+    print(f'{c+1}° {clasf[c]}')
+print('='*30)
+print('A lanterna do brasileirão é: ')
+for c in range(16,20):
+    print(f'{c+1}° {clasf[c]}')
+print('='*30)
+print('A ordem alfabética seria: ')
+print(str(sorted(clasf)).replace('[','').replace(']','').replace(',',' -->'))
+print('=-_' *30)
+print('GRAND FINALE')
+print(f'O Flamengo está na posição {clasf.index("Flamengo")}°')

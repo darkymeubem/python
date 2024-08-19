@@ -1,0 +1,7 @@
+n = input('Digite algo:')
+print('Seu tipo é:')
+print(type(n))
+print('É um número')
+print(n.isnumeric())
+print("É um caractere?")
+print(n.isalpha())
